@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/blade_to_vue', 'TestController@sendDataFromBladeToVue')->name('blade.to.vue');
+
 Route::get('/', function () {
     return view('welcome');
 });
