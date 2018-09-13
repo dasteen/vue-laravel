@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/blade_to_vue', 'TestController@sendDataFromBladeToVue')->name('blade.to.vue');
+Route::get('/data_to_vue', 'TestController@getDataToVue')->name('data.to.vue');
+Route::get('/ajax_to_vue', 'TestController@getDataAjaxToVue')->name('ajax.to.vue');
 
 Route::get('/', function () {
     return view('welcome');

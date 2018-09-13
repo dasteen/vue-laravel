@@ -24,7 +24,7 @@
             this.show();
         },
         methods: {
-            show: () => {
+            show: function () {
                 console.log(this.bladeData);
             }
         }
